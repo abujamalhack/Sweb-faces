@@ -7,7 +7,7 @@ import insightface
 from moviepy.editor import VideoFileClip
 
 # ===== ضع توكن البوت هنا =====
-TOKEN = "ضع_توكن_البوت_هنا"
+TOKEN = "8374939684:AAHWBF5JMAw_oTDE80Sbqy-b6x9R7nV6SY4"
 
 model = insightface.app.FaceAnalysis(name="buffalo_l")
 model.prepare(ctx_id=-1, det_size=(640, 640))  # CPU
